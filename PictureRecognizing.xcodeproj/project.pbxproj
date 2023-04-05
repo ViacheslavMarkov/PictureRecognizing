@@ -10,12 +10,10 @@
 		0D8805D129DC229300A6D2DE /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8805D029DC229300A6D2DE /* PictureViewController.swift */; };
 		0DA786D329D5C8380079A886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA786D229D5C8380079A886 /* AppDelegate.swift */; };
 		0DA786D529D5C8380079A886 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA786D429D5C8380079A886 /* SceneDelegate.swift */; };
-		0DA786D729D5C8380079A886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA786D629D5C8380079A886 /* ViewController.swift */; };
 		0DA786DC29D5C83A0079A886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA786DB29D5C83A0079A886 /* Assets.xcassets */; };
 		0DA786DF29D5C83A0079A886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA786DD29D5C83A0079A886 /* LaunchScreen.storyboard */; };
 		0DB5BBBB29DAB62100E59084 /* VanGoghFieldModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5BBBA29DAB62100E59084 /* VanGoghFieldModel.mlmodel */; };
 		0DB5BBBD29DAC94900E59084 /* Test21.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5BBBC29DAC94800E59084 /* Test21.mlmodel */; };
-		0DB5BBBF29DAD41900E59084 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5BBBE29DAD41900E59084 /* NextViewController.swift */; };
 		0DB5BBC129DB50D500E59084 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5BBC029DB50D500E59084 /* FrameView.swift */; };
 		0DB5BBC329DB51EC00E59084 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5BBC229DB51EC00E59084 /* UIView+Extension.swift */; };
 		0DB5BBCA29DBFD6400E59084 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5BBC929DBFD6400E59084 /* MainViewController.swift */; };
@@ -32,13 +30,11 @@
 		0DA786CF29D5C8380079A886 /* PictureRecognizing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PictureRecognizing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA786D229D5C8380079A886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DA786D429D5C8380079A886 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0DA786D629D5C8380079A886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0DA786DB29D5C83A0079A886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA786DE29D5C83A0079A886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA786E029D5C83A0079A886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DB5BBBA29DAB62100E59084 /* VanGoghFieldModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VanGoghFieldModel.mlmodel; sourceTree = "<group>"; };
 		0DB5BBBC29DAC94800E59084 /* Test21.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Test21.mlmodel; sourceTree = "<group>"; };
-		0DB5BBBE29DAD41900E59084 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		0DB5BBC029DB50D500E59084 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 		0DB5BBC229DB51EC00E59084 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		0DB5BBC929DBFD6400E59084 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -137,8 +133,6 @@
 		0DB5BBC829DBFD3700E59084 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				0DA786D629D5C8380079A886 /* ViewController.swift */,
-				0DB5BBBE29DAD41900E59084 /* NextViewController.swift */,
 				0DB5BBC929DBFD6400E59084 /* MainViewController.swift */,
 				0D8805D029DC229300A6D2DE /* PictureViewController.swift */,
 			);
@@ -248,11 +242,9 @@
 				0DB5BBD629DC099800E59084 /* UIFont+Extension.swift in Sources */,
 				0D8805D129DC229300A6D2DE /* PictureViewController.swift in Sources */,
 				0DB5BBBB29DAB62100E59084 /* VanGoghFieldModel.mlmodel in Sources */,
-				0DB5BBBF29DAD41900E59084 /* NextViewController.swift in Sources */,
 				0DB5BBDD29DC141B00E59084 /* UIViewController+Extension.swift in Sources */,
 				0DB5BBD429DC073600E59084 /* FooterView.swift in Sources */,
 				0DB5BBC329DB51EC00E59084 /* UIView+Extension.swift in Sources */,
-				0DA786D729D5C8380079A886 /* ViewController.swift in Sources */,
 				0DA786D329D5C8380079A886 /* AppDelegate.swift in Sources */,
 				0DB5BBBD29DAC94900E59084 /* Test21.mlmodel in Sources */,
 				0DB5BBCA29DBFD6400E59084 /* MainViewController.swift in Sources */,
